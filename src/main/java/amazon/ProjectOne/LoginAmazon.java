@@ -17,7 +17,7 @@ public class LoginAmazon extends DDT
 	public  DDT d1 = new DDT();
 	
 	
-	@FindBy(id="ap_email_login")
+	@FindBy(id="ap_email")
 	WebElement username;
 	
 	@FindBy(id="continue")

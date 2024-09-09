@@ -17,7 +17,7 @@ public class Testcase8_sortby_Relevance_Price_Rating extends Launch_Quit_Amazon
 		
 		SearchResult_Amazon s1= new SearchResult_Amazon(driver);
 		s1.ctgry();
-		s1.srtby();
+		s1.srtby(); 
 		s1.plh();
 		
 		String s2=driver.getCurrentUrl();

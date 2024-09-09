@@ -7,6 +7,7 @@
   <groupId>amazon</groupId>
   <artifactId>ProjectOne</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
 
   <name>ProjectOne</name>
   <!-- FIXME change it to the project's website -->
@@ -14,8 +15,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -44,7 +45,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.8.0</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 
   </dependencies>
@@ -90,10 +91,10 @@
         <plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.0.0-M7</version>
+					<version>3.3.1</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>amazonproject.xml</suiteXmlFile>
+							<suiteXmlFile>testngamazonone.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					</configuration>
 		</plugin>

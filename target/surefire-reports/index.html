@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\banal\eclipse-workspace\ProjectOne\amazonproject.xml</span>
+                    <span>C:\Users\banal\eclipse-workspace\ProjectOne\testngamazonone.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,  1 skipped,  6 passed</span>
+                    <span class="method-stats">9 methods,  1 skipped,  8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Retried methods</span>
@@ -103,7 +103,7 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating" class="method navigator-link" hash-for-method="sortbyprice">sortbyprice</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -127,12 +127,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="amazon.ProjectOne.Testcase10_CartQuantitles" class="method navigator-link" hash-for-method="cartquantity">cartquantity</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="amazon.ProjectOne.Testcase6_searchingWithFilters" class="method navigator-link" hash-for-method="filters">filters</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon.ProjectOne.Testcase12_Paymentmethod" class="method navigator-link" hash-for-method="paymentsmethod">paymentsmethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon.ProjectOne.Testcase7_Productdetailspage" class="method navigator-link" hash-for-method="prdctdet">prdctdet</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -160,39 +170,16 @@
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating</span>
+              <span class="class-name">amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="sortbyprice">
-                  </a> <!-- sortbyprice -->
-                  <span class="method-name">sortbyprice</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#twotabsearchtextbox&quot;}
-  (Session info: chrome=128.0.6613.113)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0e77535c4c1b915482a4e864f2b42116, findElement {value=twotabsearchtextbox, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\banal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64426/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e77535c4c1b915482a4e864f2b42116
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy11.sendKeys(Unknown Source)
-	at amazon.ProjectOne.Home_Amazon.searchproduct(Home_Amazon.java:57)
-	at amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating.sortbyprice(Testcase8_sortby_Relevance_Price_Rating.java:16)
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">java.lang.AssertionError: Sorry the testcase is failed expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in] but found [Authentication required]
+	at amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials.login(Testcase2_for_Loginwith_CorrectCredentials.java:30)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
@@ -203,21 +190,6 @@ Session ID: 0e77535c4c1b915482a4e864f2b42116
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">amazon.ProjectOne.Testcase10_CartQuantitles</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="cartquantity">
-                  </a> <!-- cartquantity -->
-                  <span class="method-name">cartquantity</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -226,6 +198,36 @@ Session ID: 0e77535c4c1b915482a4e864f2b42116
                   <a name="sortbyprice">
                   </a> <!-- sortbyprice -->
                   <span class="method-name">sortbyprice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon.ProjectOne.Testcase12_Paymentmethod</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentsmethod">
+                  </a> <!-- paymentsmethod -->
+                  <span class="method-name">paymentsmethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon.ProjectOne.Testcase7_Productdetailspage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="prdctdet">
+                  </a> <!-- prdctdet -->
+                  <span class="method-name">prdctdet</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -248,14 +250,14 @@ Session ID: 0e77535c4c1b915482a4e864f2b42116
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials</span>
+              <span class="class-name">amazon.ProjectOne.Testcase5_searchingshoe</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -278,14 +280,29 @@ Session ID: 0e77535c4c1b915482a4e864f2b42116
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">amazon.ProjectOne.Testcase5_searchingshoe</span>
+              <span class="class-name">amazon.ProjectOne.Testcase6_searchingWithFilters</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="search">
-                  </a> <!-- search -->
-                  <span class="method-name">search</span>
+                  <a name="filters">
+                  </a> <!-- filters -->
+                  <span class="method-name">filters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -293,7 +310,7 @@ Session ID: 0e77535c4c1b915482a4e864f2b42116
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\banal\eclipse-workspace\ProjectOne\amazonproject.xml</span>
+            <span class="header-content">C:\Users\banal\eclipse-workspace\ProjectOne\testngamazonone.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -302,12 +319,13 @@ Session ID: 0e77535c4c1b915482a4e864f2b42116
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials&quot;/&gt;
+      &lt;class name=&quot;amazon.ProjectOne.Testcase7_Productdetailspage&quot;/&gt;
       &lt;class name=&quot;amazon.ProjectOne.Testcase9_addingToCart&quot;/&gt;
       &lt;class name=&quot;amazon.ProjectOne.Testcase15_ReachCartPage&quot;/&gt;
-      &lt;class name=&quot;amazon.ProjectOne.Testcase10_CartQuantitles&quot;/&gt;
+      &lt;class name=&quot;amazon.ProjectOne.Testcase12_Paymentmethod&quot;/&gt;
+      &lt;class name=&quot;amazon.ProjectOne.Testcase6_searchingWithFilters&quot;/&gt;
       &lt;class name=&quot;amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating&quot;/&gt;
-      &lt;class name=&quot;amazon.ProjectOne.AppTest&quot;/&gt;
+      &lt;class name=&quot;amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials&quot;/&gt;
       &lt;class name=&quot;amazon.ProjectOne.Testcase5_searchingshoe&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -322,7 +340,7 @@ Session ID: 0e77535c4c1b915482a4e864f2b42116
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (7 classes)</span>
+                <span class="test-name">Test (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -348,40 +366,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'sortbyprice')
-data.setCell(0, 2, 'amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating')
-data.setCell(0, 3, 10082);
+data.setCell(0, 1, 'paymentsmethod')
+data.setCell(0, 2, 'amazon.ProjectOne.Testcase12_Paymentmethod')
+data.setCell(0, 3, 20235);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'cartpagewithoutlogin')
 data.setCell(1, 2, 'amazon.ProjectOne.Testcase15_ReachCartPage')
-data.setCell(1, 3, 9719);
+data.setCell(1, 3, 10358);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'cartquantity')
-data.setCell(2, 2, 'amazon.ProjectOne.Testcase10_CartQuantitles')
-data.setCell(2, 3, 9374);
+data.setCell(2, 1, 'filters')
+data.setCell(2, 2, 'amazon.ProjectOne.Testcase6_searchingWithFilters')
+data.setCell(2, 3, 8639);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'login')
-data.setCell(3, 2, 'amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials')
-data.setCell(3, 3, 7677);
+data.setCell(3, 1, 'addingtocart')
+data.setCell(3, 2, 'amazon.ProjectOne.Testcase9_addingToCart')
+data.setCell(3, 3, 6976);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'addingtocart')
-data.setCell(4, 2, 'amazon.ProjectOne.Testcase9_addingToCart')
-data.setCell(4, 3, 6979);
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials')
+data.setCell(4, 3, 6007);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'sortbyprice')
-data.setCell(5, 2, 'amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating')
-data.setCell(5, 3, 4837);
+data.setCell(5, 1, 'login')
+data.setCell(5, 2, 'amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials')
+data.setCell(5, 3, 4237);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'search')
-data.setCell(6, 2, 'amazon.ProjectOne.Testcase5_searchingshoe')
-data.setCell(6, 3, 717);
+data.setCell(6, 1, 'prdctdet')
+data.setCell(6, 2, 'amazon.ProjectOne.Testcase7_Productdetailspage')
+data.setCell(6, 3, 3205);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sortbyprice')
+data.setCell(7, 2, 'amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating')
+data.setCell(7, 3, 2901);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'search')
+data.setCell(8, 2, 'amazon.ProjectOne.Testcase5_searchingshoe')
+data.setCell(8, 3, 2799);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -393,13 +419,37 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
+              <span class="reporter-method-name">paymentsmethod</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">login</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test case is pass</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">cartquantity</span>
+              <span class="reporter-method-name">search</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">prdctdet</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addingtocart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">filters</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test case is pass</span>
               </div> <!-- reporter-method-output-div -->
@@ -412,18 +462,6 @@ return data;
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">sortbyprice</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test case is pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addingtocart</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test case is pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">search</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test case is pass</span>
               </div> <!-- reporter-method-output-div -->
@@ -443,105 +481,135 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">amazon.ProjectOne.Testcase7_Productdetailspage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch_browser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">3092 ms</span>
+                <span class="method-name">prdctdet</span>
+                <span class="method-start">3352 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit_browser</span>
-                <span class="method-start">11354 ms</span>
+                <span class="method-start">6827 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon.ProjectOne.Testcase9_addingToCart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch_browser</span>
-                <span class="method-start">16700 ms</span>
+                <span class="method-start">12111 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addingtocart</span>
-                <span class="method-start">18801 ms</span>
+                <span class="method-start">14954 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit_browser</span>
-                <span class="method-start">26075 ms</span>
+                <span class="method-start">22130 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon.ProjectOne.Testcase15_ReachCartPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch_browser</span>
-                <span class="method-start">31577 ms</span>
+                <span class="method-start">27419 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cartpagewithoutlogin</span>
-                <span class="method-start">34122 ms</span>
+                <span class="method-start">30287 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit_browser</span>
-                <span class="method-start">44012 ms</span>
+                <span class="method-start">40770 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon.ProjectOne.Testcase10_CartQuantitles</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">amazon.ProjectOne.Testcase12_Paymentmethod</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch_browser</span>
-                <span class="method-start">49324 ms</span>
+                <span class="method-start">46096 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">cartquantity</span>
-                <span class="method-start">51448 ms</span>
+                <span class="method-name">paymentsmethod</span>
+                <span class="method-start">49336 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit_browser</span>
-                <span class="method-start">61051 ms</span>
+                <span class="method-start">69720 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon.ProjectOne.Testcase6_searchingWithFilters</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch_browser</span>
+                <span class="method-start">75073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">filters</span>
+                <span class="method-start">77710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit_browser</span>
+                <span class="method-start">92468 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch_browser</span>
-                <span class="method-start">66437 ms</span>
+                <span class="method-start">99530 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">sortbyprice</span>
-                <span class="method-start">68942 ms</span>
+                <span class="method-start">102705 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit_browser</span>
-                <span class="method-start">79027 ms</span>
+                <span class="method-start">105716 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch_browser</span>
+                <span class="method-start">110926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">113523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit_browser</span>
+                <span class="method-start">117760 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launch_browser</span>
-                <span class="method-start">84407 ms</span>
+                <span class="method-start">122958 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">sortbyprice</span>
-                <span class="method-start">87019 ms</span>
+                <span class="method-name">login</span>
+                <span class="method-start">125723 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit_browser</span>
-                <span class="method-start">91992 ms</span>
+                <span class="method-start">131944 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon.ProjectOne.Testcase5_searchingshoe</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch_browser</span>
-                <span class="method-start">97354 ms</span>
+                <span class="method-start">137249 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">search</span>
-                <span class="method-start">99741 ms</span>
+                <span class="method-start">139880 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit_browser</span>
-                <span class="method-start">102152 ms</span>
+                <span class="method-start">142885 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

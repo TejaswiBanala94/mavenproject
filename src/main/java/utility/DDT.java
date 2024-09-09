@@ -14,7 +14,7 @@ public class DDT
 	//public static String passwd;
 	public static String credentialusername(String sheet, int row ,int cell) throws EncryptedDocumentException, IOException
 	{
-		FileInputStream f1= new FileInputStream("C:\\Users\\banal\\eclipse-workspace\\SeleniumBasics\\DDT\\tejaswi.xlsx");
+		FileInputStream f1= new FileInputStream("C:\\Users\\banal\\eclipse-workspace\\ProjectOne\\DDT\\tejaswi.xlsx");
 		Workbook w1=WorkbookFactory.create(f1);
 		String uname = w1.getSheet(sheet).getRow(row).getCell(cell).getStringCellValue();
 		//passwd = NumberToTextConverter.toText(w1.getSheet("loginamazon").getRow(0).getCell(1).getNumericCellValue());

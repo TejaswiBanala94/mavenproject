@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="0" total="7" passed="6" failed="0" skipped="0">
+<testng-results retried="1" ignored="0" total="9" passed="8" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Test case is pass]]>
@@ -19,137 +19,152 @@
     <line>
       <![CDATA[Test case is pass]]>
     </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is pass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-08-29T16:49:42 CDT" name="Suite" finished-at="2024-08-29T16:51:26 CDT" duration-ms="104034">
+  <suite started-at="2024-09-09T14:26:35 CDT" name="Suite" finished-at="2024-09-09T14:29:19 CDT" duration-ms="163811">
     <groups>
     </groups>
-    <test started-at="2024-08-29T16:49:42 CDT" name="Test" finished-at="2024-08-29T16:51:26 CDT" duration-ms="104034">
-      <class name="amazon.ProjectOne.Testcase15_ReachCartPage">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase15_ReachCartPage@d9345cd]" started-at="2024-08-29T16:50:32 CDT" name="launch_browser" finished-at="2024-08-29T16:50:34 CDT" duration-ms="2226" status="PASS">
+    <test started-at="2024-09-09T14:26:35 CDT" name="Test" finished-at="2024-09-09T14:29:19 CDT" duration-ms="163811">
+      <class name="amazon.ProjectOne.Testcase12_Paymentmethod">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase12_Paymentmethod@13fd2ccd]" started-at="2024-09-09T14:27:24 CDT" name="launch_browser" finished-at="2024-09-09T14:27:27 CDT" duration-ms="3113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="cartpagewithoutlogin()[pri:0, instance:amazon.ProjectOne.Testcase15_ReachCartPage@d9345cd]" started-at="2024-08-29T16:50:34 CDT" name="cartpagewithoutlogin" finished-at="2024-08-29T16:50:44 CDT" duration-ms="10186" status="PASS">
+        <test-method signature="paymentsmethod()[pri:0, instance:amazon.ProjectOne.Testcase12_Paymentmethod@13fd2ccd]" started-at="2024-09-09T14:27:27 CDT" name="paymentsmethod" finished-at="2024-09-09T14:27:49 CDT" duration-ms="21512" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- paymentsmethod -->
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase12_Paymentmethod@13fd2ccd]" started-at="2024-09-09T14:27:49 CDT" name="quit_browser" finished-at="2024-09-09T14:27:54 CDT" duration-ms="5340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_browser -->
+      </class> <!-- amazon.ProjectOne.Testcase12_Paymentmethod -->
+      <class name="amazon.ProjectOne.Testcase15_ReachCartPage">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase15_ReachCartPage@48aca48b]" started-at="2024-09-09T14:27:06 CDT" name="launch_browser" finished-at="2024-09-09T14:27:09 CDT" duration-ms="2945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="cartpagewithoutlogin()[pri:0, instance:amazon.ProjectOne.Testcase15_ReachCartPage@48aca48b]" started-at="2024-09-09T14:27:09 CDT" name="cartpagewithoutlogin" finished-at="2024-09-09T14:27:19 CDT" duration-ms="9425" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- cartpagewithoutlogin -->
-        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase15_ReachCartPage@d9345cd]" started-at="2024-08-29T16:50:44 CDT" name="quit_browser" finished-at="2024-08-29T16:50:49 CDT" duration-ms="5243" status="PASS">
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase15_ReachCartPage@48aca48b]" started-at="2024-09-09T14:27:19 CDT" name="quit_browser" finished-at="2024-09-09T14:27:24 CDT" duration-ms="5331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit_browser -->
       </class> <!-- amazon.ProjectOne.Testcase15_ReachCartPage -->
-      <class name="amazon.ProjectOne.Testcase9_addingToCart">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase9_addingToCart@428640fa]" started-at="2024-08-29T16:50:18 CDT" name="launch_browser" finished-at="2024-08-29T16:50:20 CDT" duration-ms="1996" status="PASS">
+      <class name="amazon.ProjectOne.Testcase7_Productdetailspage">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase7_Productdetailspage@1b2abca6]" started-at="2024-09-09T14:26:35 CDT" name="launch_browser" finished-at="2024-09-09T14:26:39 CDT" duration-ms="3377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="addingtocart()[pri:0, instance:amazon.ProjectOne.Testcase9_addingToCart@428640fa]" started-at="2024-08-29T16:50:20 CDT" name="addingtocart" finished-at="2024-08-29T16:50:26 CDT" duration-ms="6174" status="PASS">
+        <test-method signature="prdctdet()[pri:0, instance:amazon.ProjectOne.Testcase7_Productdetailspage@1b2abca6]" started-at="2024-09-09T14:26:39 CDT" name="prdctdet" finished-at="2024-09-09T14:26:42 CDT" duration-ms="3642" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- prdctdet -->
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase7_Productdetailspage@1b2abca6]" started-at="2024-09-09T14:26:42 CDT" name="quit_browser" finished-at="2024-09-09T14:26:49 CDT" duration-ms="6813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_browser -->
+      </class> <!-- amazon.ProjectOne.Testcase7_Productdetailspage -->
+      <class name="amazon.ProjectOne.Testcase9_addingToCart">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase9_addingToCart@6bd61f98]" started-at="2024-09-09T14:26:49 CDT" name="launch_browser" finished-at="2024-09-09T14:26:52 CDT" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="addingtocart()[pri:0, instance:amazon.ProjectOne.Testcase9_addingToCart@6bd61f98]" started-at="2024-09-09T14:26:52 CDT" name="addingtocart" finished-at="2024-09-09T14:27:01 CDT" duration-ms="8990" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- addingtocart -->
-        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase9_addingToCart@428640fa]" started-at="2024-08-29T16:50:26 CDT" name="quit_browser" finished-at="2024-08-29T16:50:32 CDT" duration-ms="5240" status="PASS">
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase9_addingToCart@6bd61f98]" started-at="2024-09-09T14:27:01 CDT" name="quit_browser" finished-at="2024-09-09T14:27:06 CDT" duration-ms="5216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit_browser -->
       </class> <!-- amazon.ProjectOne.Testcase9_addingToCart -->
-      <class name="amazon.ProjectOne.Testcase10_CartQuantitles">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase10_CartQuantitles@2d710f1a]" started-at="2024-08-29T16:50:49 CDT" name="launch_browser" finished-at="2024-08-29T16:50:51 CDT" duration-ms="1913" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="cartquantity()[pri:0, instance:amazon.ProjectOne.Testcase10_CartQuantitles@2d710f1a]" started-at="2024-08-29T16:50:51 CDT" name="cartquantity" finished-at="2024-08-29T16:50:59 CDT" duration-ms="7629" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Test case is pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- cartquantity -->
-        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase10_CartQuantitles@2d710f1a]" started-at="2024-08-29T16:50:59 CDT" name="quit_browser" finished-at="2024-08-29T16:51:04 CDT" duration-ms="5232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit_browser -->
-      </class> <!-- amazon.ProjectOne.Testcase10_CartQuantitles -->
       <class name="amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating@29215f06]" started-at="2024-08-29T16:51:04 CDT" name="launch_browser" finished-at="2024-08-29T16:51:07 CDT" duration-ms="2310" status="PASS">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating@506ae4d4]" started-at="2024-09-09T14:28:37 CDT" name="launch_browser" finished-at="2024-09-09T14:28:40 CDT" duration-ms="3012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="sortbyprice()[pri:0, instance:amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating@29215f06]" started-at="2024-08-29T16:51:07 CDT" name="sortbyprice" finished-at="2024-08-29T16:51:10 CDT" duration-ms="3468" status="PASS">
+        <test-method signature="sortbyprice()[pri:0, instance:amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating@506ae4d4]" started-at="2024-09-09T14:28:40 CDT" name="sortbyprice" finished-at="2024-09-09T14:28:48 CDT" duration-ms="7653" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- sortbyprice -->
-        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating@29215f06]" started-at="2024-08-29T16:51:10 CDT" name="quit_browser" finished-at="2024-08-29T16:51:16 CDT" duration-ms="5429" status="PASS">
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating@506ae4d4]" started-at="2024-09-09T14:28:48 CDT" name="quit_browser" finished-at="2024-09-09T14:28:55 CDT" duration-ms="6974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit_browser -->
       </class> <!-- amazon.ProjectOne.Testcase8_sortby_Relevance_Price_Rating -->
-      <class name="amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials@52af26ee]" started-at="2024-08-29T16:49:42 CDT" name="launch_browser" finished-at="2024-08-29T16:49:44 CDT" duration-ms="2414" status="PASS">
+      <class name="amazon.ProjectOne.Testcase6_searchingWithFilters">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase6_searchingWithFilters@b9b00e0]" started-at="2024-09-09T14:27:54 CDT" name="launch_browser" finished-at="2024-09-09T14:27:57 CDT" duration-ms="2456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method retried="true" signature="login()[pri:0, instance:amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials@52af26ee]" started-at="2024-08-29T16:49:44 CDT" name="login" finished-at="2024-08-29T16:49:54 CDT" duration-ms="10083" status="SKIP">
-          <exception class="org.openqa.selenium.json.JsonException">
+        <test-method retried="true" signature="filters()[pri:0, instance:amazon.ProjectOne.Testcase6_searchingWithFilters@b9b00e0]" started-at="2024-09-09T14:27:57 CDT" name="filters" finished-at="2024-09-09T14:28:11 CDT" duration-ms="14248" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#searchDropdownBox"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [98f632a863af151ea26e73649283a9da, actions {actions=[org.openqa.selenium.interactions.Sequence@402f80f5]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\banal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53441/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 98f632a863af151ea26e73649283a9da]]>
+Command: [986294a396febf2bb92fd1d675bbe4f0, findElement {using=id, value=searchDropdownBox}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\banal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61478/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 986294a396febf2bb92fd1d675bbe4f0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#searchDropdownBox"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [98f632a863af151ea26e73649283a9da, actions {actions=[org.openqa.selenium.interactions.Sequence@402f80f5]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\banal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53441/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 98f632a863af151ea26e73649283a9da
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
-at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
-at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
-at java.base/java.util.Map.forEach(Map.java:713)
-at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
-at org.openqa.selenium.json.Json.toJson(Json.java:133)
-at org.openqa.selenium.json.Json.toJson(Json.java:119)
-at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
-at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+Command: [986294a396febf2bb92fd1d675bbe4f0, findElement {using=id, value=searchDropdownBox}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\banal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61478/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 986294a396febf2bb92fd1d675bbe4f0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:613)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
-at amazon.ProjectOne.Home_Amazon.acctlist(Home_Amazon.java:39)
-at amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials.login(Testcase2_for_Loginwith_CorrectCredentials.java:25)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:43)
+at amazon.ProjectOne.Home_Amazon.alcatgry(Home_Amazon.java:44)
+at amazon.ProjectOne.Testcase6_searchingWithFilters.filters(Testcase6_searchingWithFilters.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -178,92 +193,62 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
-at org.openqa.selenium.json.Json.toJson(Json.java:131)
-... 40 more
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
-... 61 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='nav-line-2 ']"}
-  (Session info: chrome=128.0.6613.113)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [98f632a863af151ea26e73649283a9da, findElement {using=xpath, value=//span[@class='nav-line-2 ']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\banal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53441/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 98f632a863af151ea26e73649283a9da
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.getWrappedElement(Unknown Source)
-at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
-at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
-at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
-at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
-... 66 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials@52af26ee]" started-at="2024-08-29T16:49:54 CDT" name="quit_browser" finished-at="2024-08-29T16:50:00 CDT" duration-ms="5278" status="PASS">
+        </test-method> <!-- filters -->
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase6_searchingWithFilters@b9b00e0]" started-at="2024-09-09T14:28:11 CDT" name="quit_browser" finished-at="2024-09-09T14:28:16 CDT" duration-ms="5270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit_browser -->
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials@52af26ee]" started-at="2024-08-29T16:50:00 CDT" name="launch_browser" finished-at="2024-08-29T16:50:02 CDT" duration-ms="2088" status="PASS">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase6_searchingWithFilters@b9b00e0]" started-at="2024-09-09T14:28:16 CDT" name="launch_browser" finished-at="2024-09-09T14:28:19 CDT" duration-ms="2645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="login()[pri:0, instance:amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials@52af26ee]" started-at="2024-08-29T16:50:02 CDT" name="login" finished-at="2024-08-29T16:50:11 CDT" duration-ms="9188" status="PASS">
+        <test-method signature="filters()[pri:0, instance:amazon.ProjectOne.Testcase6_searchingWithFilters@b9b00e0]" started-at="2024-09-09T14:28:19 CDT" name="filters" finished-at="2024-09-09T14:28:29 CDT" duration-ms="9532" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filters -->
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase6_searchingWithFilters@b9b00e0]" started-at="2024-09-09T14:28:32 CDT" name="quit_browser" finished-at="2024-09-09T14:28:37 CDT" duration-ms="5427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_browser -->
+      </class> <!-- amazon.ProjectOne.Testcase6_searchingWithFilters -->
+      <class name="amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials@7d4f9aae]" started-at="2024-09-09T14:28:55 CDT" name="launch_browser" finished-at="2024-09-09T14:28:58 CDT" duration-ms="2699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="login()[pri:0, instance:amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials@7d4f9aae]" started-at="2024-09-09T14:28:58 CDT" name="login" finished-at="2024-09-09T14:29:03 CDT" duration-ms="5039" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials@52af26ee]" started-at="2024-08-29T16:50:11 CDT" name="quit_browser" finished-at="2024-08-29T16:50:18 CDT" duration-ms="6766" status="PASS">
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials@7d4f9aae]" started-at="2024-09-09T14:29:03 CDT" name="quit_browser" finished-at="2024-09-09T14:29:08 CDT" duration-ms="5262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit_browser -->
       </class> <!-- amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials -->
       <class name="amazon.ProjectOne.Testcase5_searchingshoe">
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase5_searchingshoe@59505b48]" started-at="2024-08-29T16:51:16 CDT" name="launch_browser" finished-at="2024-08-29T16:51:18 CDT" duration-ms="2310" status="PASS">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:amazon.ProjectOne.Testcase5_searchingshoe@53aac487]" started-at="2024-09-09T14:29:08 CDT" name="launch_browser" finished-at="2024-09-09T14:29:11 CDT" duration-ms="3048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="search()[pri:0, instance:amazon.ProjectOne.Testcase5_searchingshoe@59505b48]" started-at="2024-08-29T16:51:18 CDT" name="search" finished-at="2024-08-29T16:51:20 CDT" duration-ms="2405" status="PASS">
+        <test-method signature="search()[pri:0, instance:amazon.ProjectOne.Testcase5_searchingshoe@53aac487]" started-at="2024-09-09T14:29:11 CDT" name="search" finished-at="2024-09-09T14:29:14 CDT" duration-ms="2300" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase5_searchingshoe@59505b48]" started-at="2024-08-29T16:51:21 CDT" name="quit_browser" finished-at="2024-08-29T16:51:26 CDT" duration-ms="5386" status="PASS">
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:amazon.ProjectOne.Testcase5_searchingshoe@53aac487]" started-at="2024-09-09T14:29:14 CDT" name="quit_browser" finished-at="2024-09-09T14:29:19 CDT" duration-ms="5281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit_browser -->

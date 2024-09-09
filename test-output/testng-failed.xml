@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials">
+      <class name="amazon.ProjectOne.Testcase6_searchingWithFilters">
         <methods>
-          <include name="login"/>
+          <include name="filters"/>
           <include name="quit_browser"/>
           <include name="launch_browser"/>
         </methods>
-      </class> <!-- amazon.ProjectOne.Testcase2_for_Loginwith_CorrectCredentials -->
+      </class> <!-- amazon.ProjectOne.Testcase6_searchingWithFilters -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
